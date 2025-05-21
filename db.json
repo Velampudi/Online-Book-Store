@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "jaideep",
+      "email": "jaideep@example.com",
+      "password": "123456",
+      "cart": []
+    },
+    {
+      "id": "c4a0",
+      "username": "jaypal",
+      "email": "jp@gmail.com",
+      "password": "96321",
+      "cart": []
+    },
+    {
+      "id": "d843",
+      "username": "sanju",
+      "email": "sanju@gmail.com",
+      "password": "8521",
+      "cart": []
+    },
+    {
+      "id": "00da",
+      "username": "jai",
+      "email": "jai@gmail.com",
+      "password": "123456",
+      "cart": []
+    },
+    {
+      "id": "c7aa",
+      "username": "sami",
+      "email": "samanvi@gmail.com",
+      "password": "12369874",
+      "cart": [
+        {
+          "id": "96qvjz",
+          "productId": "1",
+          "name": "Red Roses",
+          "quantity": 1,
+          "imgSrc": "red-roses.jpg",
+          "price": 1500,
+          "discount": 15
+        },
+        {
+          "id": "bgcumt",
+          "productId": "2",
+          "name": "White Roses",
+          "quantity": 1,
+          "imgSrc": "white-roses.jpg",
+          "price": 2520,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "0b66",
+      "username": "prami",
+      "email": "pramada@gmail.com",
+      "password": "74123",
+      "cart": []
+    },
+    {
+      "id": "6d7c",
+      "username": "pradeep",
+      "email": "pradeep@gmail.com",
+      "password": "1258",
+      "cart": []
+    },
+    {
+      "id": "97e9",
+      "username": "Jai",
+      "email": "jaideepaddula28@gmail.com",
+      "password": "jai@333",
+      "cart": [
+        {
+          "id": "je4dqa",
+          "productId": "1",
+          "name": "Red Roses",
+          "quantity": 1,
+          "imgSrc": "red-roses.jpg",
+          "price": 1500,
+          "discount": 15
+        },
+        {
+          "id": "dhkwtk",
+          "productId": "2",
+          "name": "White Roses",
+          "quantity": 1,
+          "imgSrc": "white-roses.jpg",
+          "price": 2520,
+          "discount": 10
+        },
+        {
+          "id": "cnez7r",
+          "productId": "3",
+          "name": "Pink Lilies",
+          "quantity": 1,
+          "imgSrc": "pink-lilies.jpg",
+          "price": 2490,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "d03d",
+      "username": "Sanjana",
+      "email": "hellojd.0022@gmail.com",
+      "password": "8521",
+      "cart": [
+        {
+          "id": "cj1fo0",
+          "productId": "1",
+          "name": "Red Roses",
+          "quantity": 2,
+          "imgSrc": "red-roses.jpg",
+          "price": 1500,
+          "discount": 15
+        },
+        {
+          "id": "kyuhmm",
+          "productId": "7",
+          "name": "Blue Orchids",
+          "quantity": 1,
+          "imgSrc": "blue-orchids.jpg",
+          "price": 3690,
+          "discount": 16
+        },
+        {
+          "id": "sbapgk",
+          "productId": "8",
+          "name": "Yellow Lilies",
+          "quantity": 1,
+          "imgSrc": "yellow-lilies.jpg",
+          "price": 1510,
+          "discount": 14
+        }
+      ]
+    }
+  ],
+  "flowers": [
+    {
+      "id": "1",
+      "name": "Red Roses",
+      "category": "Roses",
+      "imgSrc": "red-roses.jpg",
+      "description": "Classic red roses to express love and romance.",
+      "avgRating": 4.8,
+      "ratingCount": 2.5,
+      "price": 1500,
+      "discount": 15
+    },
+    {
+      "id": "2",
+      "name": "White Roses",
+      "category": "Roses",
+      "imgSrc": "white-roses.jpg",
+      "description": "Pure white roses symbolizing innocence and peace.",
+      "avgRating": 4.7,
+      "ratingCount": 1.2,
+      "price": 2520,
+      "discount": 10
+    },
+    {
+      "id": "3",
+      "name": "Pink Lilies",
+      "category": "Lilies",
+      "imgSrc": "pink-lilies.jpg",
+      "description": "Beautiful pink lilies for admiration and joy.",
+      "avgRating": 4.5,
+      "ratingCount": 2,
+      "price": 2490,
+      "discount": 10
+    },
+    {
+      "id": "4",
+      "name": "Yellow Tulips",
+      "category": "Tulips",
+      "imgSrc": "yellow-tulips.jpg",
+      "description": "Bright yellow tulips for cheerful moments.",
+      "avgRating": 4.5,
+      "ratingCount": 2.3,
+      "price": 1450,
+      "discount": 10
+    },
+    {
+      "id": "5",
+      "name": "White Tulips",
+      "category": "Tulips",
+      "imgSrc": "white-tulips.jpg",
+      "description": "Royal white tulips symbolizing elegance.",
+      "avgRating": 4.6,
+      "ratingCount": 2.2,
+      "price": 1470,
+      "discount": 12
+    },
+    {
+      "id": "6",
+      "name": "White Lilies",
+      "category": "Lilies",
+      "imgSrc": "white-lilies.jpg",
+      "description": "Elegant white lilies perfect for sympathy and serenity.",
+      "avgRating": 4.6,
+      "ratingCount": 1.8,
+      "price": 2480,
+      "discount": 12
+    },
+    {
+      "id": "7",
+      "name": "Blue Orchids",
+      "category": "Orchids",
+      "imgSrc": "blue-orchids.jpg",
+      "description": "Rare blue orchids for a unique gift.",
+      "avgRating": 4.7,
+      "ratingCount": 2.2,
+      "price": 3690,
+      "discount": 16
+    },
+    {
+      "id": "8",
+      "name": "Yellow Lilies",
+      "category": "Lilies",
+      "imgSrc": "yellow-lilies.jpg",
+      "description": "Vibrant yellow lilies that catch every eye.",
+      "avgRating": 4.7,
+      "ratingCount": 2.1,
+      "price": 1510,
+      "discount": 14
+    },
+    {
+      "id": "9",
+      "name": "Bright Sunflowers",
+      "category": "Sunflowers",
+      "imgSrc": "yellow-sunflowers.jpg",
+      "description": "Classic sunflowers to brighten anyone's day.",
+      "avgRating": 4.5,
+      "ratingCount": 2,
+      "price": 1400,
+      "discount": 20
+    },
+    {
+      "id": "10",
+      "name": "Red Tulips",
+      "category": "Tulips",
+      "imgSrc": "red-tulips.jpg",
+      "description": "Romantic red tulips for passionate occasions.",
+      "avgRating": 4.7,
+      "ratingCount": 2.3,
+      "price": 1490,
+      "discount": 13
+    },
+    {
+      "id": "11",
+      "name": "Sunset Sunflowers",
+      "category": "Sunflowers",
+      "imgSrc": "sunset-sunflower.jpg",
+      "description": "Radiant Sunset Sunflowers that capture the golden hues of evening skies.",
+      "avgRating": 4.6,
+      "ratingCount": 2.3,
+      "price": 1490,
+      "discount": 18
+    },
+    {
+      "id": "12",
+      "name": "Purple Orchids",
+      "category": "Orchids",
+      "imgSrc": "purple-orchids.jpg",
+      "description": "Regal purple orchids to impress and enchant.",
+      "avgRating": 4.8,
+      "ratingCount": 1.9,
+      "price": 2670,
+      "discount": 20
+    },
+    {
+      "id": "13",
+      "name": "Pink Roses",
+      "category": "Roses",
+      "imgSrc": "pink-roses.jpg",
+      "description": "Delicate pink roses for admiration and joy.",
+      "avgRating": 4.6,
+      "ratingCount": 1.8,
+      "price": 1530,
+      "discount": 12
+    }
+  ]
+}

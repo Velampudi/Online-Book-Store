@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "node server.js"
+    "start": "node server.mjs"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

@@ -1,17 +1,25 @@
 // server.js
-import jsonServer from 'json-server';
+import { createServer } from 'node:http';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-server.use(middlewares);
-server.use(router);
+const start = async () => {
+  const jsonServer = await import('json-server');
+  const server = jsonServer.create();
+  const router = jsonServer.router(path.join(__dirname, 'db.json'));
+  const middlewares = jsonServer.defaults();
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on port ${PORT}`);
-});
+  server.use(middlewares);
+  server.use(router);
+
+  const PORT = process.env.PORT || 3000;
+  server.listen(PORT, () => {
+    console.log(`JSON Server is running on port ${PORT}`);
+  });
+};
+
+start();
+
 

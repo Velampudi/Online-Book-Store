@@ -2,15 +2,25 @@
   "users": [
     {
       "id": "1",
-      "username": "jaideep",
-      "email": "jaideep@example.com",
+      "username": "anusha",
+      "email": "anusha@example.com",
       "password": "123456",
-      "cart": []
+      "cart": [
+        {
+          "id": "2wmkmw",
+          "productId": "6",
+          "name": "A Beginners Guide to the Stock Market",
+          "quantity": 1,
+          "imgSrc": "https://99bookstores.com/cdn/shop/products/81jzsxq0kyl-ac-uy218.jpg?v=1697525735&width=990",
+          "price": 2480,
+          "discount": 12
+        }
+      ]
     },
     {
       "id": "c4a0",
-      "username": "jaypal",
-      "email": "jp@gmail.com",
+      "username": "Gopi",
+      "email": "gopi@gmail.com",
       "password": "96321",
       "cart": []
     },
@@ -47,10 +57,28 @@
           "id": "bgcumt",
           "productId": "2",
           "name": "White Roses",
-          "quantity": 1,
+          "quantity": 2,
           "imgSrc": "white-roses.jpg",
           "price": 2520,
           "discount": 10
+        },
+        {
+          "id": "qa3ppi",
+          "productId": "7",
+          "name": "Blue Orchids",
+          "quantity": 1,
+          "imgSrc": "blue-orchids.jpg",
+          "price": 3690,
+          "discount": 16
+        },
+        {
+          "id": "3b9hun",
+          "productId": "8",
+          "name": "Yellow Lilies",
+          "quantity": 1,
+          "imgSrc": "yellow-lilies.jpg",
+          "price": 1510,
+          "discount": 14
         }
       ]
     },
@@ -75,31 +103,22 @@
       "password": "jai@333",
       "cart": [
         {
-          "id": "je4dqa",
-          "productId": "1",
-          "name": "Red Roses",
-          "quantity": 1,
-          "imgSrc": "red-roses.jpg",
-          "price": 1500,
-          "discount": 15
-        },
-        {
-          "id": "dhkwtk",
-          "productId": "2",
-          "name": "White Roses",
-          "quantity": 1,
-          "imgSrc": "white-roses.jpg",
-          "price": 2520,
-          "discount": 10
-        },
-        {
-          "id": "cnez7r",
+          "id": "73ftwe",
           "productId": "3",
           "name": "Pink Lilies",
-          "quantity": 1,
+          "quantity": 2,
           "imgSrc": "pink-lilies.jpg",
           "price": 2490,
           "discount": 10
+        },
+        {
+          "id": "yaxvaf",
+          "productId": "1",
+          "name": "Red Roses",
+          "quantity": 3,
+          "imgSrc": "red-roses.jpg",
+          "price": 1500,
+          "discount": 15
         }
       ]
     },
@@ -137,15 +156,109 @@
           "discount": 14
         }
       ]
+    },
+    {
+      "id": "8411",
+      "username": "bobby",
+      "email": "bobby@example.com",
+      "password": "123456",
+      "cart": [
+        {
+          "id": "w24xmp",
+          "productId": "5",
+          "name": "White Tulips",
+          "quantity": 1,
+          "imgSrc": "white-tulips.jpg",
+          "price": 1470,
+          "discount": 12
+        },
+        {
+          "id": "dom80f",
+          "productId": "8",
+          "name": "Yellow Lilies",
+          "quantity": 1,
+          "imgSrc": "yellow-lilies.jpg",
+          "price": 1510,
+          "discount": 14
+        },
+        {
+          "id": "iuawwf",
+          "productId": "7",
+          "name": "Blue Orchids",
+          "quantity": 1,
+          "imgSrc": "blue-orchids.jpg",
+          "price": 3690,
+          "discount": 16
+        },
+        {
+          "id": "cij7pd",
+          "productId": "9",
+          "name": "Bright Sunflowers",
+          "quantity": 1,
+          "imgSrc": "yellow-sunflowers.jpg",
+          "price": 1400,
+          "discount": 20
+        }
+      ]
+    },
+    {
+      "id": "a1f8",
+      "username": "bhuvi",
+      "email": "bhuvi@example.com",
+      "password": "1258",
+      "cart": [
+        {
+          "id": "9kyqiv",
+          "productId": "2",
+          "name": "White Roses",
+          "quantity": 1,
+          "imgSrc": "white-roses.jpg",
+          "price": 2520,
+          "discount": 10
+        }
+      ]
+    },
+    {
+      "id": "816f",
+      "username": "jai",
+      "email": "jdr@gmail.com",
+      "password": "123",
+      "cart": []
+    },
+    {
+      "id": "4ace",
+      "username": "vijay",
+      "email": "vijay@gmail.com",
+      "password": "14789",
+      "cart": [
+        {
+          "id": "gwgb7f",
+          "productId": "3",
+          "name": "Pink Lilies",
+          "quantity": 1,
+          "imgSrc": "pink-lilies.jpg",
+          "price": 2490,
+          "discount": 10
+        },
+        {
+          "id": "ij0r3i",
+          "productId": "4",
+          "name": "Yellow Tulips",
+          "quantity": 1,
+          "imgSrc": "yellow-tulips.jpg",
+          "price": 1450,
+          "discount": 10
+        }
+      ]
     }
   ],
-  "flowers": [
+  "books": [
     {
       "id": "1",
-      "name": "Red Roses",
-      "category": "Roses",
-      "imgSrc": "red-roses.jpg",
-      "description": "Classic red roses to express love and romance.",
+      "name": "HARRYPOTER",
+      "category": "Kids",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81q77Q39nEL._SL1500.jpg?v=1713431126&width=990",
+      "description": "Harry Potter and the Philosopher's Stone by J.K. Rowling",
       "avgRating": 4.8,
       "ratingCount": 2.5,
       "price": 1500,
@@ -153,10 +266,10 @@
     },
     {
       "id": "2",
-      "name": "White Roses",
-      "category": "Roses",
-      "imgSrc": "white-roses.jpg",
-      "description": "Pure white roses symbolizing innocence and peace.",
+      "name": "THE BLUE UMBRELLA",
+      "category": "Kids",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81XnkOOlOFL._AC_UF1000_1000_QL80.jpg?v=1720597156&width=990",
+      "description": "THE BLUE UMBRELLA by Ruskin Bond",
       "avgRating": 4.7,
       "ratingCount": 1.2,
       "price": 2520,
@@ -164,10 +277,10 @@
     },
     {
       "id": "3",
-      "name": "Pink Lilies",
-      "category": "Lilies",
-      "imgSrc": "pink-lilies.jpg",
-      "description": "Beautiful pink lilies for admiration and joy.",
+      "name": "SNOW BEARS",
+      "category": "Kids",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81gkmMi5QjL._SL1500.jpg?v=1747732194&width=990",
+      "description": "Snow Bears Paperback",
       "avgRating": 4.5,
       "ratingCount": 2,
       "price": 2490,
@@ -175,10 +288,10 @@
     },
     {
       "id": "4",
-      "name": "Yellow Tulips",
-      "category": "Tulips",
-      "imgSrc": "yellow-tulips.jpg",
-      "description": "Bright yellow tulips for cheerful moments.",
+      "name": "DEMON DAYS BLOOD FEUD",
+      "category": "Comic",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/75960620142600191.webp?v=1732538270&width=990",
+      "description": "Demon Days Blood Feud #1 (Young Variant) B15",
       "avgRating": 4.5,
       "ratingCount": 2.3,
       "price": 1450,
@@ -186,10 +299,10 @@
     },
     {
       "id": "5",
-      "name": "White Tulips",
-      "category": "Tulips",
-      "imgSrc": "white-tulips.jpg",
-      "description": "Royal white tulips symbolizing elegance.",
+      "name": "DOG MAN",
+      "category": "Comic",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/91-w0cdn9WL._SL1500.jpg?v=1740639637&width=990",
+      "description": "Dog Man: The Supa Epic Collection: From the Creator of Captain Underpants (Dog Man #1-6 Box Set)",
       "avgRating": 4.6,
       "ratingCount": 2.2,
       "price": 1470,
@@ -197,10 +310,10 @@
     },
     {
       "id": "6",
-      "name": "White Lilies",
-      "category": "Lilies",
-      "imgSrc": "white-lilies.jpg",
-      "description": "Elegant white lilies perfect for sympathy and serenity.",
+      "name": "A Beginners Guide to the Stock Market",
+      "category": "Trading",
+      "imgSrc": "https://99bookstores.com/cdn/shop/products/81jzsxq0kyl-ac-uy218.jpg?v=1697525735&width=990",
+      "description": "A Beginners Guide to the Stock Market: Everything You Need to Start Making Money Today",
       "avgRating": 4.6,
       "ratingCount": 1.8,
       "price": 2480,
@@ -208,10 +321,10 @@
     },
     {
       "id": "7",
-      "name": "Blue Orchids",
-      "category": "Orchids",
-      "imgSrc": "blue-orchids.jpg",
-      "description": "Rare blue orchids for a unique gift.",
+      "name": "COFFEE CAN INVESTING",
+      "category": "Trading",
+      "imgSrc": "https://99bookstores.com/cdn/shop/products/1-a446efbe-bde3-4f46-8d7b-9cbd1b25934d.jpg?v=1697525727&width=990",
+      "description": "Coffee can Investing",
       "avgRating": 4.7,
       "ratingCount": 2.2,
       "price": 3690,
@@ -219,10 +332,10 @@
     },
     {
       "id": "8",
-      "name": "Yellow Lilies",
-      "category": "Lilies",
-      "imgSrc": "yellow-lilies.jpg",
-      "description": "Vibrant yellow lilies that catch every eye.",
+      "name": "Can we be strangers again",
+      "category": "Romance",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/61EvLCxdXWL._SL1200.jpg?v=1738838885&width=990",
+      "description": "Can we be strangers again by Shrijeet Shandilya",
       "avgRating": 4.7,
       "ratingCount": 2.1,
       "price": 1510,
@@ -230,10 +343,10 @@
     },
     {
       "id": "9",
-      "name": "Bright Sunflowers",
-      "category": "Sunflowers",
-      "imgSrc": "yellow-sunflowers.jpg",
-      "description": "Classic sunflowers to brighten anyone's day.",
+      "name": "TWISTED LOVE",
+      "category": "Romance",
+      "imgSrc": "https://99bookstores.com/cdn/shop/products/71C6QfedlKL._AC_UY327_FMwebp_QL65.webp?v=1698428109&width=990",
+      "description": "Twisted Love - Special Edition by Ana Huang",
       "avgRating": 4.5,
       "ratingCount": 2,
       "price": 1400,
@@ -241,10 +354,10 @@
     },
     {
       "id": "10",
-      "name": "Red Tulips",
-      "category": "Tulips",
-      "imgSrc": "red-tulips.jpg",
-      "description": "Romantic red tulips for passionate occasions.",
+      "name": "My Dark Romeo",
+      "category": "Romance",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/WhatsAppImage2024-05-01at3.24.15PM.jpg?v=1714557279&width=990",
+      "description": "My Dark Romeo: An Enemies-to-Lovers Romance by Parker S Huntington and L J Shen",
       "avgRating": 4.7,
       "ratingCount": 2.3,
       "price": 1490,
@@ -252,10 +365,10 @@
     },
     {
       "id": "11",
-      "name": "Sunset Sunflowers",
-      "category": "Sunflowers",
-      "imgSrc": "sunset-sunflower.jpg",
-      "description": "Radiant Sunset Sunflowers that capture the golden hues of evening skies.",
+      "name": "WINGS OF FIRE An Autobiography",
+      "category": "Biography & Autobiography",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/71KKZlVjbwL._SL1500.jpg?v=1721618336&width=990",
+      "description": "WINGS OF FIRE An Autobiography with Arun Tiwari",
       "avgRating": 4.6,
       "ratingCount": 2.3,
       "price": 1490,
@@ -263,10 +376,10 @@
     },
     {
       "id": "12",
-      "name": "Purple Orchids",
-      "category": "Orchids",
-      "imgSrc": "purple-orchids.jpg",
-      "description": "Regal purple orchids to impress and enchant.",
+      "name": "JAIL DIARY OF BHAGAT SINGH",
+      "category": "Biography & Autobiography",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81AToth2o_L._SL1500.jpg?v=1700031923&width=990",
+      "description": "Jail diary of bhagat singh",
       "avgRating": 4.8,
       "ratingCount": 1.9,
       "price": 2670,
@@ -274,14 +387,102 @@
     },
     {
       "id": "13",
-      "name": "Pink Roses",
-      "category": "Roses",
-      "imgSrc": "pink-roses.jpg",
-      "description": "Delicate pink roses for admiration and joy.",
+      "name": "EIon Musk Ashlee Vance",
+      "category": "Biography & Autobiography",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81KAg5fnOhL._SL1500.jpg?v=1717511337&width=990",
+      "description": "How the Billionaire CEO of Spacex and Tesla is Shaping our Future",
       "avgRating": 4.6,
       "ratingCount": 1.8,
       "price": 1530,
       "discount": 12
+    },
+    {
+      "id": "14",
+      "name": "BHAGVAD GITA ",
+      "category": "Mythology",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/81YC6O_-qbL._SL1500.jpg?v=1748765088&width=990",
+      "description": "Bhagvad Gita As It Is",
+      "avgRating": 4.9,
+      "ratingCount": 2.7,
+      "price": 1800,
+      "discount": 18
+    },
+    {
+      "id": "15",
+      "name": "NARASIMHA-The Maha avtar trilogy",
+      "category": "Mythology",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/7161riQ4lnL._SL1400.jpg?v=1742449204&width=990",
+      "description": "Narasimha, once a brave soldier, has left the war and lies low as a...",
+      "avgRating": 4.7,
+      "ratingCount": 1.8,
+      "price": 189,
+      "discount": 14
+    },
+    {
+      "id": "16",
+      "name": "RAM CHANDRA Series ",
+      "category": "Mythology",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/WhatsApp-Image-2023-09-11-at-12.43.35-PM-1.jpg?v=1698213785&width=990",
+      "description": "Ram Chandra Series (1-4)",
+      "avgRating": 4.6,
+      "ratingCount": 2.4,
+      "price": 900,
+      "discount": 16
+    },
+    {
+      "id": "17",
+      "name": "SHORT STORIES FROM PANCHATANTRA",
+      "category": "Age 5-11",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/9789389931297.jpg-549x611.jpg?v=1750102554&width=990",
+      "description": "Short Stories From Panchatantra - Volume 2: Abridged Illustrated Stories For Children (With Morals)",
+      "avgRating": 4.5,
+      "ratingCount": 1.9,
+      "price": 150,
+      "discount": 12
+    },
+    {
+      "id": "18",
+      "name": "Witty Stories of AKBAR AND BIRBA",
+      "category": "Age 5-11",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/9789390391394.jpg-549x611.jpg?v=1750102741&width=990",
+      "description": "Witty Stories of Akbar and Birbal - Volume 5: Illustrated Humorous Stories For Kids",
+      "avgRating": 4.7,
+      "ratingCount": 2,
+      "price": 200,
+      "discount": 16
+    },
+    {
+      "id": "19",
+      "name": "CHHOTA BHEEM - WE ARE AWESOME",
+      "category": "Age 5-11",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/9789390391639.jpg-549x611.jpg?v=1750103040&width=990",
+      "description": "Chhota Bheem - We are Awesome: Copy Coloring Book For Kids",
+      "avgRating": 4.5,
+      "ratingCount": 1.9,
+      "price": 200,
+      "discount": 12
+    },
+    {
+      "id": "20",
+      "name": "Moondust",
+      "category": "Fiction",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/9780747563693.jpg?v=1748168991&width=990",
+      "description": "Moondust by Andrew Smith. In Search of the Men Who Fell to Earth.",
+      "avgRating": 4.7,
+      "ratingCount": 1.7,
+      "price": 150,
+      "discount": 14
+    },
+    {
+      "id": "21",
+      "name": "DEATH COMES TO PEMBERLEY",
+      "category": "Fiction",
+      "imgSrc": "https://99bookstores.com/cdn/shop/files/9780571311170.jpg?v=1748168986&width=990",
+      "description": "Death comes to pemberley by P.D. James",
+      "avgRating": 4.4,
+      "ratingCount": 1.8,
+      "price": 300,
+      "discount": 15
     }
   ]
 }

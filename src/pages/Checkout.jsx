@@ -40,7 +40,7 @@ function Checkout({ currentUser }) {
         acc + item.quantity * (item.price - (item.price * item.discount / 100)), 0).toFixed(2)
     };
 
-    emailjs.send('service_13hrm7l', 'template_336il8s', templateParams, 'H2C94h6i63OZ1NjXB')
+    emailjs.send('service_esjj44a', 'template_2r3edaf', templateParams, 'dAFkRQOUhh42wHh6G')
       .then(() => {
         navigate('/orderconfirmation');
       }).catch(error => {

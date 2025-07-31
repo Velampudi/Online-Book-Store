@@ -7,19 +7,19 @@ function Home() {
         <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 py-12 bg-pink-50 mt-10 pt-20">
           <div className="max-w-md">
             <h2 className="text-4xl font-bold text-gray-700 mb-4">
-              Fresh Blooms Delivered To Your Doorstep.
+              Endless Stories Delivered to Your Imagination.
             </h2>
             <p className="text-gray-600 mb-6">
-              Discover a curated selection of seasonal flowers perfect for every occasion.
+              Discover a curated collection of books across every genre — from timeless classics to modern bestsellers — perfect for every kind of reader.
             </p>
             <div className="flex items-center">
               <Link to="/signup" className="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-500">
                 Sign Up Now
               </Link>
-              <img className="w-20 h-15 ml-4" src="cart0.png" alt="FloraCart Logo" />
+              <img className="w-20 h-15 ml-4" src="storyheaven.png" alt="StoryHeaven Logo"/>
             </div>
           </div>
-          <img src="florals.jpg" alt="Flowers" className="w-full md:w-1/2 rounded-lg shadow-lg" />
+          <img src="Storyshop.png" alt="Books" className="w-[250px] h-[250px] md:w-[480px] md:h-[400px] rounded-lg shadow-lg" />
         </section>
   
         {/* About Section */}
@@ -39,9 +39,9 @@ function Home() {
           <div>
             <h3 className="text-3xl font-bold text-pink-600 mb-4">About Us</h3>
             <p className="text-gray-700 max-w-3xl mx-auto">
-              At <span className="font-semibold">FloraCart</span>, we believe that flowers speak the language of love, joy, and celebration.
-              We're committed to bringing you the freshest, most beautiful floral arrangements for every occasion.
-              Our carefully selected blooms are handpicked to make every moment special.
+              At <span className="font-semibold">FloraCart</span>,we believe that books are more than just pages
+               — they are journeys, ideas, and inspiration. Whether you're a fan of timeless classics, thrilling mysteries, 
+               self-help, or the latest bestsellers, our carefully curated collection offers something for every reader.
             </p>
           </div>
         </section>

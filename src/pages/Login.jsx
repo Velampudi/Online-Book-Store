@@ -20,7 +20,7 @@ function Login({ setCurrentUser }) {
       );
 
       if (matchedUser) {
-        localStorage.setItem("floracartUser", JSON.stringify(matchedUser));
+        localStorage.setItem("storyheavenUser", JSON.stringify(matchedUser));
         setCurrentUser(matchedUser);
         alert('Login successfull');
         navigate("/Flowers"); // or any page after login

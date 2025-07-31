@@ -1,5 +1,6 @@
 {
-  "name": "floracart",
+  "name": "StoryHeaven",
+  "homepage":"https://github.com/Velampudi/Online-Book-Store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "json-server --watch db.json --port 3000"
+    "start": "node server.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
